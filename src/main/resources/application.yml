@@ -1,0 +1,9 @@
+server:
+  port: ${PORT:80}
+
+vendors:
+  apiMedic:
+    base-url: ${API_MEDIC_BASE_URL}
+    auth-token: ${API_MEDIC_AUTH_TOKEN}
+    format: ${API_MEDIC_FORMAT}
+    language: ${API_MEDIC_LANGUAGE}
